@@ -444,9 +444,16 @@ footer i, footer p {
     display: none;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 940px) {
   #col-text-tablas {
     background-image: none;
+  }
+
+
+  #back-img {
+    background-image: url("../assets/img/header.jpg");
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
   }
 
   .cwhite .img-menu {
@@ -462,6 +469,11 @@ footer i, footer p {
   #face-insta {
     display: none;
   }
+  .about-us-vid-text .white .card {
+    border: none;
+    padding: 5% 8% 0% 15%;
+}
+  
 }
 @media (min-width: 991px) and (max-width: 1199px) {
   #facebook {
@@ -483,6 +495,12 @@ footer i, footer p {
   #we-are {
     width: 160%;
   }
+  #back-img {
+    background-image: url("../assets/img/header.jpg");
+    background-size: 100% 30%;
+    background-repeat: no-repeat;
+  }
+
 }
 @media (max-width: 664px) {
   #insta {
