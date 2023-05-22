@@ -233,8 +233,8 @@ input[type=radio]:checked ~ label {
 }
 .about-us-vid-text .vid {
   margin: 20% 0% 0% 18%;
-  width: 107%;
-  height: 70%;
+  width: 330px;
+  height: 200px;
   background-image: url("../assets/img/video.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -338,7 +338,7 @@ input[type=radio]:checked ~ label {
 .container-ig {
   position: absolute;
   z-index: 99;
-  width: 38%;
+  width: 30%;
   margin-top: 12%;
 }
 .container-ig .row .col img {
